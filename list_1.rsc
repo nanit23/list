@@ -10,3 +10,8 @@ add list=RF address=91.213.144.0/24 comment=sbis.ru
 add list=RF address=report.saby.ru comment=sbis.ru
 add list=RF address=sso.saby.ru comment=sbis.ru
 add list=RF address=lk.metallprofil.ru comment=metallprofil.ru
+
+
+
+
+/file remove [find name="list_1.rsc"]
