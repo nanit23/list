@@ -1,6 +1,5 @@
 /ip firewall address-list
 remove [find list="list1"]
-#remove numbers=[find list=RF]
 add list=list1 address=www.gosuslugi.ru comment=www.gosuslugi.ru
 add list=list1 address=213.59.254.0/24 comment=www.gosuslugi.ru
 add list=list1 address=213.59.253.0/24 comment=www.gosuslugi.ru
