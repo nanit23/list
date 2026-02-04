@@ -1,5 +1,7 @@
 /ip firewall address-list
-remove [find list=list1]
+:do { remove [find where list="list1"] } on-error={}
+add list="list1" address=www.gosuslugi.ru comment=www.gosuslugi.ru
+
 add list=list1 address=www.gosuslugi.ru comment=www.gosuslugi.ru
 add list=list1 address=213.59.254.0/24 comment=www.gosuslugi.ru
 add list=list1 address=213.59.253.0/24 comment=www.gosuslugi.ru
